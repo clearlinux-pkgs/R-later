@@ -4,7 +4,7 @@
 #
 Name     : R-later
 Version  : 0.7.5
-Release  : 6
+Release  : 7
 URL      : https://cran.r-project.org/src/contrib/later_0.7.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/later_0.7.5.tar.gz
 Summary  : Utilities for Delaying Function Execution
