@@ -4,17 +4,18 @@
 #
 Name     : R-later
 Version  : 0.8.0
-Release  : 12
+Release  : 13
 URL      : https://cran.r-project.org/src/contrib/later_0.8.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/later_0.8.0.tar.gz
 Summary  : Utilities for Delaying Function Execution
 Group    : Development/Tools
 License  : GPL-2.0+ Zlib
 Requires: R-later-lib = %{version}-%{release}
-Requires: R-markdown
+Requires: R-rlang
 BuildRequires : R-BH
 BuildRequires : R-Rcpp
 BuildRequires : R-markdown
+BuildRequires : R-rlang
 BuildRequires : R-stringi
 BuildRequires : buildreq-R
 
@@ -38,10 +39,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552772952
+export SOURCE_DATE_EPOCH=1552958179
 
 %install
-export SOURCE_DATE_EPOCH=1552772952
+export SOURCE_DATE_EPOCH=1552958179
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
