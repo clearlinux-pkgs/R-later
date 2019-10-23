@@ -4,20 +4,20 @@
 #
 Name     : R-later
 Version  : 1.0.0
-Release  : 19
+Release  : 20
 URL      : https://cran.r-project.org/src/contrib/later_1.0.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/later_1.0.0.tar.gz
-Summary  : Utilities for Delaying Function Execution
+Summary  : Utilities for Scheduling Functions to Execute Later with Event Loops
 Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-later-lib = %{version}-%{release}
-Requires: R-BH
 Requires: R-Rcpp
 Requires: R-rlang
 BuildRequires : R-BH
 BuildRequires : R-Rcpp
 BuildRequires : R-rlang
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 # later
@@ -42,10 +42,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1570196263
+export SOURCE_DATE_EPOCH=1571852745
 
 %install
-export SOURCE_DATE_EPOCH=1570196263
+export SOURCE_DATE_EPOCH=1571852745
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
