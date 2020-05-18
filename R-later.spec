@@ -4,7 +4,7 @@
 #
 Name     : R-later
 Version  : 1.0.0
-Release  : 24
+Release  : 25
 URL      : https://cran.r-project.org/src/contrib/later_1.0.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/later_1.0.0.tar.gz
 Summary  : Utilities for Scheduling Functions to Execute Later with Event
@@ -40,10 +40,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1589412431
+export SOURCE_DATE_EPOCH=1589825562
 
 %install
-export SOURCE_DATE_EPOCH=1589412431
+export SOURCE_DATE_EPOCH=1589825562
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
