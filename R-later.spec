@@ -5,7 +5,7 @@
 #
 Name     : R-later
 Version  : 1.3.1
-Release  : 50
+Release  : 51
 URL      : https://cran.r-project.org/src/contrib/later_1.3.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/later_1.3.1.tar.gz
 Summary  : Utilities for Scheduling Functions to Execute Later with Event
