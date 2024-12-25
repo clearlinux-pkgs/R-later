@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : R-later
-Version  : 1.4.0
-Release  : 55
-URL      : https://ftp.osuosl.org/pub/cran/src/contrib/later_1.4.0.tar.gz
-Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/later_1.4.0.tar.gz
+Version  : 1.4.1
+Release  : 56
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/later_1.4.1.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/later_1.4.1.tar.gz
 Summary  : Utilities for Scheduling Functions to Execute Later with Event
 Group    : Development/Tools
 License  : MIT Zlib
@@ -71,10 +71,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1732655501
+export SOURCE_DATE_EPOCH=1735108449
 
 %install
-export SOURCE_DATE_EPOCH=1732655501
+export SOURCE_DATE_EPOCH=1735108449
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/R-later
 cp %{_builddir}/later/LICENSE.note %{buildroot}/usr/share/package-licenses/R-later/1aec7d4290240555db0f8141162fb21c012930f7 || :
